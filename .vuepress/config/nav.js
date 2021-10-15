@@ -20,6 +20,6 @@ const nav = [
             {text:'为什么',link:'/docs/About/why.md'}
         ]
     },
-    { text: 'Github', link: 'https://github.com/CHD731' },
+    { text: 'Github', link: 'https://github.com/chdlvy' },
     ]
 module.exports = nav
