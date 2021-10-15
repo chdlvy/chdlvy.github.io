@@ -14,7 +14,7 @@ categories:
 + 如果宿主为浏览器，可能会渲染页面；
 + 开始下一轮tick，执行宏任务中的异步代码（setTimeout等回调）。
 ![eventloop1](../images/borwser/eventloop01.png)
-### <font >事件循环机制</font>
+### 事件循环机制
 单线程的运行环境有且只有一个`call-stack`调用栈(执行栈)，所有的任务(代码)都会被放到调用栈等待浏览器的主线程执行。
 
 此时`整体代码script`作为第一个宏任务开始执行，执行到异步代码时会先把异步代码放到`event Table/webapi`注册，注册之后根据异步代码选择放入微任务/宏任务的event queue，同时继续执行主线程中的同步代码。

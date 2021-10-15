@@ -20,7 +20,7 @@ const FE = [
     ]
   },
   {
-    title: 'Javascrip',
+    title: 'Javascript',
     children: [
       {title: '数据类型',path:'/blogs/Js/01-js.md'},
       {title: 'typeof和instanceof',path:'/blogs/Js/02-js.md'},
@@ -31,7 +31,8 @@ const FE = [
       {title: 'async和await',path:'/blogs/Js/07-js.md'},
       {title: '正则表达式',path:'/blogs/Js/08-js.md'},
       {title: '防抖与节流',path:'/blogs/Js/09-js.md'},
-      {title: '微任务与宏任务',path:'/blogs/Js/10-js.md'}
+      {title: '微任务与宏任务',path:'/blogs/Js/10-js.md'},
+      {title: 'proxy',path:'/blogs/Js/11-js.md'}
     ]
   },
   {
